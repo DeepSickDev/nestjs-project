@@ -57,6 +57,9 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 # Important: .pnp.* files are part of Yarn's Zero-Install feature and should NOT be ignored.
 # This ensures that all dependencies are committed to the repository.
 .yarn/*
+.yarn/install-state.gz
+.yarn/build-state.yml
+!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
